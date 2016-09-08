@@ -12,6 +12,8 @@
     <TextView
         android:text="amazeballs"
         android:textSize="20sp"
+        android:paddingBottom="46dp"
+        android:paddingTop="46dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

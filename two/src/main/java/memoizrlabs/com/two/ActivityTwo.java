@@ -9,6 +9,6 @@ public class ActivityTwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_two);
-        System.out.println("i'm inside activity two");
+        System.out.println("i'm inside activity two nice! Nice!");
     }
 }

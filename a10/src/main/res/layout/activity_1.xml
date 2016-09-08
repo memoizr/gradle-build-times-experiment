@@ -11,6 +11,8 @@
     tools:context="memoizrlabs.com.a10.Activity1">
 
     <RelativeLayout
+        android:id="@+id/foobar"
+        android:paddingBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView

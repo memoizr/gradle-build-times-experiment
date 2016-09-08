@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 //        J7 val = new J7();
 //        val.doJ7();
         Intent intent = new Intent(this, ActivityTwo.class);
+//        Intent intent = new Intent(this, BackgroundActivity.class);
         startActivity(intent);
     }
 }
