@@ -17,10 +17,57 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java']
+            }
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = true
+    }
+
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(":two")
+    compile project(":login")
+    compile project(":dashboard")
+    compile project(":one")
+    compile project(":three")
+    compile project(":four")
+    compile project(":five")
+    compile project(":six")
+    compile project(":seven")
+    compile project(":j1")
+    compile project(":j2")
+    compile project(":j3")
+    compile project(":j4")
+    compile project(":j5")
+    compile project(":j6")
+    compile project(":j7")
+    compile project(":a1")
+    compile project(":a2")
+    compile project(":a3")
+    compile project(":a4")
+    compile project(":a5")
+    compile project(":a6")
+    compile project(":a7")
+    compile project(":a9")
+    compile project(":a10")
+    compile project(":a11")
+    compile project(":a12")
+    compile project(":a13")
+    compile project(":a14")
+    compile project(":a15")
+    compile project(":a16")
+    compile project(":a17")
+    compile project(":a18")
+    compile project(":a19")
+    compile project(":a20")
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -28,3 +75,4 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
     testCompile 'junit:junit:4.12'
 }
+
